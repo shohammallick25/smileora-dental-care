@@ -1,0 +1,21 @@
+{
+  "name": "Smileora - We Perfect Your Smile",
+  "short_name": "Smileora-Dental Care",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196f3",
+  "description": "Smileora provides trusted dental care for a healthy, beautiful smile.",
+  "icons": [
+    {
+      "src": "./assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

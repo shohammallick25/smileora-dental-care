@@ -2,6 +2,7 @@
 
 Welcome to **Smileora**, where we perfect your smile!  
 This is the official repository for Smileora’s website, a trusted dental care platform offering comprehensive, compassionate dental services.
+![image](https://github.com/user-attachments/assets/7904c6d3-47df-43a6-9d72-94c1557814cc)
 
 ---
 

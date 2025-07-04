@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shoham Mallick || Smileora - We Perfect Your Smile</title>
 
+  <link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#2196f3">
+
+
   <!-- 
     - favicon
   -->
@@ -936,6 +940,15 @@ Your smile is our mission — because healthy teeth mean a happier you.
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js')
+      .then(reg => console.log("Service Worker registered", reg))
+      .catch(err => console.error("Service Worker registration failed", err));
+  }
+</script>
+
 
 </body>
 
